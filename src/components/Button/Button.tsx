@@ -1,11 +1,6 @@
-import { ReactNode } from 'react'
+import { ButtonProps } from 'src/@types/interfaces'
 import { Container } from './styles'
 
-interface ButtonProps {
-  children: ReactNode
-  onClick: () => void
-}
-
-export const Button = ({ children, onClick }: ButtonProps) => {
-  return <Container onClick={onClick}>{children}</Container>
+export const Button = ({ children, onClickFunc }: ButtonProps) => {
+  return <Container onClick={onClickFunc}>{children}</Container>
 }

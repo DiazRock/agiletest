@@ -8,7 +8,7 @@ describe('Button Component', () => {
     const mockedOnClick = jest.fn()
 
     const component = renderer.create(
-      <Button onClick={mockedOnClick}>Button</Button>,
+      <Button onClickFunc={mockedOnClick}>Button</Button>,
     )
 
     expect(component).toMatchSnapshot()
@@ -16,7 +16,7 @@ describe('Button Component', () => {
   it('should be able to render Button and click', () => {
     const mockedOnClick = jest.fn()
 
-    render(<Button onClick={mockedOnClick}>Button</Button>)
+    render(<Button onClickFunc={mockedOnClick}>Button</Button>)
 
     userEvent.click(screen.getByText(/button/i))
 
