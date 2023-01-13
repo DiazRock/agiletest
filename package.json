@@ -13,6 +13,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@syncfusion/ej2-react-buttons": "^20.4.42",
     "dotenv": "^10.0.0",
     "dotenv-webpack": "^7.0.3",
     "react": "^17.0.2",
