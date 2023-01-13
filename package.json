@@ -13,6 +13,9 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.4",
     "@syncfusion/ej2-react-buttons": "^20.4.42",
     "dotenv": "^10.0.0",
     "dotenv-webpack": "^7.0.3",
