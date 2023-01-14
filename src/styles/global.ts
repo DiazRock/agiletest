@@ -10,6 +10,10 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
+    background-color: #DCDFE0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   button {
